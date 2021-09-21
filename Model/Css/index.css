@@ -1,11 +1,102 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
 * {
     font-family: 'Raleway', sans-serif;
+	font-size: 12px;
 }
 
 body {
+	padding: 0 1.5em;
 	background-color: #fff;
-	width: 850px;
-	margin: auto;
+	/*width: 850px;
+	margin: auto;*/
 }
+
+
+/* ------Début Class Réutilisable---------- */
+
+/* ------Fin Class---------- */
+
+/* Header Début */
+header {
+	display: flex;
+	flex-flow: row nowrap;
+	align-content: center;
+	justify-content: space-between;
+	height: 65px;
+}
+
+h1 {
+	font-size: 16px;
+}
+
+.logoReservia {
+	width: 97px;
+	height: 45px;
+	margin: auto 0;
+}
+
+.menu {
+	display: flex;
+	flex-flow: row wrap;
+	height: 100%;
+}
+
+.menu a {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+	color:#d0d0d2;
+	text-decoration: none;
+	padding: 0 2em;
+	border-top: 2px #ffffff solid;
+}
+
+.menu li a:hover, .menu li a.active {
+	color:#0065FC;
+	/*padding-top: 23px;*/
+	border-top: 2px #0065FC solid;
+}
+
+/* Header Fin */
+
+/* Main Début */
+	/* Ma section 1 Début */
+	/* Ma section 1 Fin */
+
+	/* Ma section 2 Début */
+	/* Ma section 2 Fin */
+
+	/* Ma section 3 Début */
+	/* Ma section 3 Fin */
+
+	/* Ma section 4 Début */
+	/* Ma section 4 Fin */
+/* Main Finis */
+
+/* Footer Début */
+
+/* Footer Fin */
+
+
+/* Media queries */
+@media (max-width: 1250px) { 
+	.colorbleu{
+		background-color:rgb(102, 199, 23);
+	}
+}
+
+@media (max-width: 765px) { 
+	.colorbleu{
+		background-color:rgb(96, 171, 221);
+	}
+}
+
+@media (max-width: 452px) { 
+	.colorbleu{
+		background-color:rgb(194, 87, 16);
+	}
+
+}
+/* Fin Media queries */
