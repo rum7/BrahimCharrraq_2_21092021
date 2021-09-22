@@ -2,7 +2,6 @@
 
 * {
     font-family: 'Raleway', sans-serif;
-	font-size: 12px;
 }
 
 body {
@@ -24,10 +23,11 @@ header {
 	align-content: center;
 	justify-content: space-between;
 	height: 65px;
+	font-size: 12px;
 }
 
 h1 {
-	font-size: 16px;
+	font-size: 17px;
 }
 
 .logoReservia {
@@ -53,6 +53,11 @@ h1 {
 	border-top: 2px #ffffff solid;
 }
 
+.menu a.signup {
+	font-weight: bold;
+    color: #0065FC;
+}
+
 .menu li a:hover, .menu li a.active {
 	color:#0065FC;
 	/*padding-top: 23px;*/
@@ -63,6 +68,156 @@ h1 {
 
 /* Main Début */
 	/* Ma section 1 Début */
+	.sectionRechercher {
+		font-size: 12px;
+	}
+
+	.sectionRechercher form {
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		align-items: center;
+		margin: 15px 0;
+	}
+
+	.sectionRechercher input {
+		border: none;
+		/*border-top: 2px #efefef solid;
+		border-bottom: 2px #efefef solid;*/
+		padding: 10px 15px;
+		font-weight: bold;
+	}
+
+	input:focus {
+		outline: none;
+	}
+
+	.sectionRechercher button {
+		border: none;
+		border-radius: 0 10px 10px 0;
+		display: inline-block;
+		padding: 10px 15px;
+		text-align: center;
+		text-decoration: none;
+		transition-duration: 0.2s;
+		cursor: pointer;
+		font-weight: bold;
+		color: white;
+		background-color: #0065FC;
+		border: 2px solid #0065FC;
+	}
+
+	.sectionRechercher button:hover {
+		color: #0065FC;
+		background-color: white; 
+	}
+
+	.sectionRechercher form i {
+		border: none;
+		border-radius: 10px 0 0 10px;
+		display: inline-block;
+		padding: 11px 15px;
+		color: black;
+		background-color: #efefef;
+		border: 2px solid #efefef;
+	}
+
+	.filtres {
+		display: flex;
+		flex-flow: row wrap;
+		align-items: baseline;
+		justify-content: flex-start;
+		gap: 20px;
+		font-size: 14px;
+	}
+	.filtres h3 {
+		font-size: 14px;
+	}
+	.filtres ul {
+		display: flex;
+		flex-flow: row wrap;
+		gap: 20px;
+	}
+
+	.filtres .btn {
+		position: relative;
+		display: inline-block;
+		padding: 0 15px 0 10px;
+		border: 2px solid #efefef;
+		border-radius: 30px;
+		color: black;
+		cursor: pointer;
+		transition: all 0.3s;
+		font-weight: bold;
+	}
+	
+	.filtres .btn:hover {
+		color: #0065FC;
+		background-color: #d6e7ff;
+		border-color: #d6e7ff;
+	}
+
+	/*.btn:after {
+		content: '';
+		position: absolute;
+		z-index: -1;
+	}*/
+	
+	.filtres .btn:before {
+		display: inline-block;
+		position: relative;
+		right: 10px;
+		padding: 10px;
+		line-height: 1;
+		font-family: "Font Awesome 5 Free";
+		font-weight: 900;
+		color: #0065FC;
+		background-color: #d6e7ff;
+		border-radius: 50%;
+		outline: #d6e7ff 3px solid;
+		outline-offset: -1px;
+	}
+
+	.filtres .icon-money:before {
+		content: "\f53a";
+		padding: 10px 8.5px;
+	}
+
+	.filtres .icon-child:before {
+		content: "\f1ae";
+		padding: 10px 12px;
+	}
+
+	.filtres .icon-heart:before {
+		content: "\f004";
+	}
+
+	.filtres .icon-dog:before {
+		content: "\f6d3";
+	}
+
+	.sectionRechercher p.icon-info {
+		margin: 20px 0;
+		padding: 0 0 0 25px;
+	}
+
+	.sectionRechercher .icon-info:before {
+		display: inline-block;
+		position: relative;
+		bottom: 1px;
+		right: 25px;
+		margin: 0 -18px 0 0;
+		padding: 3px 6px;
+		font-family: "Font Awesome 5 Free";
+		font-size: 10px;
+		font-weight: 900;
+		line-height: 1;
+		content: "\f129";
+		color: #0065FC;
+		background-color: #ffffff;
+		border: 1px solid #efefef;
+		border-radius: 50%;
+	}
 	/* Ma section 1 Fin */
 
 	/* Ma section 2 Début */
