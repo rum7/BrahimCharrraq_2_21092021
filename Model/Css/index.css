@@ -558,7 +558,7 @@ footer li a:hover {
 
 @media (max-width: 480px) {
 	header {
-		padding: 0 1.5em 2em;
+		padding: 0 0 2em;
 		position: relative;
 		flex-flow: row wrap;
 		height: auto;
@@ -626,7 +626,7 @@ footer li a:hover {
 		padding: 0;
 	}
 		.sectionRechercher {
-			padding: 0 5.5em;
+			padding: 0 2em;
 		}
 
 		#hebergement {
