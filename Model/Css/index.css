@@ -512,7 +512,8 @@ footer li a:hover {
 	}
 
 	#lesPlusPopulaires .hotel-info {
-		font-size: 0.75em;
+		padding: 0.5em 1em;
+		font-size: 0.70em;
 	}
 
 	#hebergement {
