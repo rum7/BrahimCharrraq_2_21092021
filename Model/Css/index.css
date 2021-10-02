@@ -92,7 +92,7 @@ main {
 	font-size: 0.85em;
 }
 
-	/* Ma section 1 Début */
+	/* Ma section Rechercher */
 	.sectionRechercher {
 		grid-row: 1/2;
 		font-size: 12px;
@@ -240,7 +240,7 @@ main {
 	}
 	/* Ma section 1 Fin */
 
-	/* Ma section 2 Début */
+	/* Ma section Hébergement */
 	#hebergement{
 		grid-row-start: 2;
 		padding: 2.5em;
@@ -253,10 +253,6 @@ main {
 		grid-template-columns: 1fr 1fr 1fr;
 		gap: 2.5em;
 	}
-
-	/*#hebergement .hotel-photo {
-		height: 10em;
-	}*/
 
 	#hebergement a {
 		padding: 7px;
@@ -311,7 +307,7 @@ main {
 
 	/* Ma section 2 Fin */
 
-	/* Ma section 3 Début */
+	/* Ma section Hébergement populaire */
 	#lesPlusPopulaires{
 		grid-row-start: 2;
 		padding: 2.5em;
@@ -332,11 +328,6 @@ main {
 		border-radius: 20px;
 		justify-content: flex-start;
 	}
-
-	/*#lesPlusPopulaires .hotel-photo {
-		width: 40%;
-		height: 10em;
-	}*/
 
 	#lesPlusPopulaires .hotel-cartes img {
 		width: 40%;
@@ -386,7 +377,7 @@ main {
 	}
 	/* Ma section 3 Fin */
 
-	/* Ma section 4 Début */
+	/* Ma section Activités */
 	#activites {
 		grid-row: 3;
 		grid-column: 1/3;
